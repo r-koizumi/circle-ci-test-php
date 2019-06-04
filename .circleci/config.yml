@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: php:5.6.26
+
+    steps:
+      - checkout
+      - run: find ./web -name "*.php" | xargs -n1 php -l
+
