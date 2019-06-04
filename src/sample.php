@@ -1,3 +1,3 @@
 <?php
 
-echo "syntax error
+echo "syntax error";
