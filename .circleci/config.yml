@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  syntax check:
     docker:
       - image: php:5.6.26
 
